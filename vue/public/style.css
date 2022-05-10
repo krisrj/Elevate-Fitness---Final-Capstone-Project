@@ -1,0 +1,114 @@
+
+#sideBarIcon{
+    border-radius: 50%;
+    height: 5.2em;
+    width: 5.2em;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 6.5em;
+    left: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 125px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 15; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+
+    background-color: rgb(0, 0, 0); /* Black*/
+    opacity: .7;
+    
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0; 
+    transition: 0.4s;
+  }
+
+  .login-home{
+    height:950px; /*height of your image*/
+    background-image:url('https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: top center;
+      background-attachment: fixed;
+    width: 100%;
+  }
+
+.btnStyled {
+    background-color: #00BFA6;
+    padding: 5px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed #00BFA6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+    margin: 3px;
+}
+
+.btnStyled span:last-child {
+    display: none;
+}
+
+.btnStyled:hover {
+    transition: .4s;
+    border: 2px dashed #00BFA6;
+    background-color: #fff;
+    color: #00BFA6;
+}
+
+.btnStyled:active {
+    background-color: #87dbd0;
+}
+
+table {
+    text-align: center;
+    max-height: 50px;
+    margin: auto;
+    /* shadow  */
+    opacity: 0.9;
+    background-color:#e8f7f7;
+    box-shadow: 0 20px 15px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+    border-radius: 25px;
+}
+
+th, td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.3);
+    color: black;
+}
+
+th {
+    text-align: left; 
+    background-color: #0ba59d;
+    color: #e8f7f7
+}
+
+tr:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+
+td{
+    position: relative;
+}
+#add-link{
+
+    display: grid;
+    align-items: center; 
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;;
+  }
+  
