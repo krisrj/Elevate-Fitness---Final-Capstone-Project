@@ -1,5 +1,5 @@
 # Elevate Fitness - Final Capstone Project
-The goal of this application was to track certain aspects of health and provide the user with health data regarding measures such as:
+The goal of this application was to track certain aspects of health and provide the user with data regarding measures such as:
   - hydration,
   - weight and
   - food intake.  
